@@ -1,2 +1,2 @@
 # Bingo sheet generator
- Bingo sheet generator made with MERN stack
+ Bingo sheet generator made with Flask
