@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="d-flex flex-wrap kaukalo">
+         {% for line in bingo1[0:4] %}
+         <div class="p-2 reunat linja align-middle">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo2[0:4] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo1[4:8] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo2[4:8] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo1[8:12] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo2[8:12] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo1[12:16] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo2[12:16] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}         
+         {% for line in bingo3[0:4] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo4[0:4] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo3[4:8] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo4[4:8] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo3[8:12] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo4[8:12] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo3[12:16] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+         {% for line in bingo4[12:16] %}
+         <div class="p-2 reunat linja">{{ line -}}</div>
+         {% endfor %}
+   </div>
+{% endblock %}

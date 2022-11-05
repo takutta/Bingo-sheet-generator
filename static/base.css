@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+html, body {
+    height: 100%;
+    font-family:'Short Stack', cursive;
+    line-height:1.3em;
+    font-size:0.95em
+}
+.yhtakuin {border:none}
+.lasku {min-width:120px}
+.center {text-align:center}
+
+
+.reunat {border:1px solid #000}
+
+.kaukalo {width:1040px}
+.linja {width:130px; height: 90px;text-align:center}
